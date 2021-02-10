@@ -10,6 +10,8 @@
 		0BE7682A25D40E5E001AFBC7 /* myframework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE7682025D40E5E001AFBC7 /* myframework.framework */; };
 		0BE7682F25D40E5E001AFBC7 /* myframeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7682E25D40E5E001AFBC7 /* myframeworkTests.m */; };
 		0BE7683125D40E5E001AFBC7 /* myframework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE7682325D40E5E001AFBC7 /* myframework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BE7684325D41405001AFBC7 /* MyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE7684125D41405001AFBC7 /* MyLogger.h */; };
+		0BE7684425D41405001AFBC7 /* MyLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7684225D41405001AFBC7 /* MyLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		0BE7682925D40E5E001AFBC7 /* myframeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myframeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE7682E25D40E5E001AFBC7 /* myframeworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myframeworkTests.m; sourceTree = "<group>"; };
 		0BE7683025D40E5E001AFBC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BE7684125D41405001AFBC7 /* MyLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLogger.h; sourceTree = "<group>"; };
+		0BE7684225D41405001AFBC7 /* MyLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLogger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				0BE7682325D40E5E001AFBC7 /* myframework.h */,
 				0BE7682425D40E5E001AFBC7 /* Info.plist */,
+				0BE7684125D41405001AFBC7 /* MyLogger.h */,
+				0BE7684225D41405001AFBC7 /* MyLogger.m */,
 			);
 			path = myframework;
 			sourceTree = "<group>";
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BE7684325D41405001AFBC7 /* MyLogger.h in Headers */,
 				0BE7683125D40E5E001AFBC7 /* myframework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BE7684425D41405001AFBC7 /* MyLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
