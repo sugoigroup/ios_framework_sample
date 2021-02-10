@@ -10,7 +10,7 @@
 		0BE7682A25D40E5E001AFBC7 /* myframework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE7682025D40E5E001AFBC7 /* myframework.framework */; };
 		0BE7682F25D40E5E001AFBC7 /* myframeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7682E25D40E5E001AFBC7 /* myframeworkTests.m */; };
 		0BE7683125D40E5E001AFBC7 /* myframework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE7682325D40E5E001AFBC7 /* myframework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BE7684325D41405001AFBC7 /* MyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE7684125D41405001AFBC7 /* MyLogger.h */; };
+		0BE7684325D41405001AFBC7 /* MyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE7684125D41405001AFBC7 /* MyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BE7684425D41405001AFBC7 /* MyLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7684225D41405001AFBC7 /* MyLogger.m */; };
 /* End PBXBuildFile section */
 
