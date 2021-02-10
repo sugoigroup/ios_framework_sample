@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import <myframework/myframework.h>
 
 @interface ViewController ()
 
@@ -16,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    MyLogger *interface = [MyLogger sharedInstance:TRUE];
+    [interface printMyLog:@"taeho"];
 }
 
 

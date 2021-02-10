@@ -16,6 +16,8 @@
 		0BE7686625D426CD001AFBC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7686525D426CD001AFBC7 /* main.m */; };
 		0BE7687025D426CE001AFBC7 /* customerformyframeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7686F25D426CE001AFBC7 /* customerformyframeworkTests.m */; };
 		0BE7687B25D426CE001AFBC7 /* customerformyframeworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7687A25D426CE001AFBC7 /* customerformyframeworkUITests.m */; };
+		0BE768A125D42BB5001AFBC7 /* myframework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE7689F25D42B9C001AFBC7 /* myframework.framework */; };
+		0BE768A225D42BB5001AFBC7 /* myframework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE7689F25D42B9C001AFBC7 /* myframework.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,20 @@
 			remoteInfo = customerformyframework;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0BE7689425D42A33001AFBC7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0BE768A225D42BB5001AFBC7 /* myframework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0BE7685025D426C5001AFBC7 /* customerformyframework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customerformyframework.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +70,7 @@
 		0BE7687625D426CE001AFBC7 /* customerformyframeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customerformyframeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE7687A25D426CE001AFBC7 /* customerformyframeworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customerformyframeworkUITests.m; sourceTree = "<group>"; };
 		0BE7687C25D426CE001AFBC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BE7689F25D42B9C001AFBC7 /* myframework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = myframework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BE768A125D42BB5001AFBC7 /* myframework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +102,7 @@
 		0BE7684725D426C5001AFBC7 = {
 			isa = PBXGroup;
 			children = (
+				0BE7689F25D42B9C001AFBC7 /* myframework.framework */,
 				0BE7685225D426C5001AFBC7 /* customerformyframework */,
 				0BE7686E25D426CE001AFBC7 /* customerformyframeworkTests */,
 				0BE7687925D426CE001AFBC7 /* customerformyframeworkUITests */,
@@ -147,6 +166,7 @@
 				0BE7684C25D426C5001AFBC7 /* Sources */,
 				0BE7684D25D426C5001AFBC7 /* Frameworks */,
 				0BE7684E25D426C5001AFBC7 /* Resources */,
+				0BE7689425D42A33001AFBC7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -443,6 +463,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BQ9M5QRQC9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = customerformyframework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -461,6 +485,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BQ9M5QRQC9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = customerformyframework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
